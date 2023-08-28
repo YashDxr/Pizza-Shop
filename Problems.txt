@@ -1,0 +1,21 @@
+A) Network call (Async Calls - Non blocking)
+    -async vs sync
+    -js internal architecture
+
+B) JSON(Serialization and Deserialization)
+Convert 
+    -object into json - Serialization        -JSON.stringify(obj);
+    -json into object  - Deserialization     -JSON.parse(obj);
+
+C) Data(Object) -> HTML
+    -DOM(Document object model) - Dynamic HTML
+
+D) Add to Cart
+    -Click Event - function
+    -how function identify which pizza add to cart is clicked
+        -attach unique id to every pizza    -id in backend
+    -use find method to find the pizza with the attached id in the database array
+    -use a flag element of inCart-tells us if the pizza is in the cart or Network
+    -print pizzas whose flag-inCart is true
+
+
