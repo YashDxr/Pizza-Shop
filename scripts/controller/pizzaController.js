@@ -27,7 +27,8 @@ function printBasket(pizza) {
   const total = printTotal(pizzaInCart).toFixed(2);
   const totalPTag = document.createElement("p");
   totalPTag.innerText = `Total is: ${total}`;
-  basketDiv.append(totalPTag);
+  basketDiv.append(totalPTag);;
+
 
   //GST VALUE
   const gst = document.createElement('p');
